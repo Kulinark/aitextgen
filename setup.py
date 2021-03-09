@@ -14,12 +14,12 @@ setup(
     classifiers=[],
     license="MIT",
     entry_points={"console_scripts": ["aitextgen=aitextgen.cli:aitextgen_cli"]},
-    python_requires=">=3.6",
+    python_requires="==3.6",
     include_package_data=True,
     install_requires=[
-        "transformers>=4.3.0",
+        "transformers==4.3.0",
         "fire>=0.3.0",
-        "pytorch-lightning>=1.2.0",
-        "torch>=1.6.0",
+        "pytorch-lightning==1.2.0",
+        "torch==1.6.0",
     ],
 )
